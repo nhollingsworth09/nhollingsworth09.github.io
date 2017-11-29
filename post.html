@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<style type = "text/css">
+		.mfp-iframe-holder .mfp-content { max-width: 1200px !important; }
+	</style>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Nykosi Hollingsworth</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+	
+    <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
+</head>
+
+<body>
+
+ <section id="basic">
+   
+   <!-- Nav Bar
+   ================================================== --> 
+      <nav id="nav-wrap" class="opaque">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+	         <li><a href="index.html#resume">Skills</a></li>
+            <li  class="current"><a href="#basic">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+ 
+	<!-- Main Page
+   ================================================== --> 
+    <div class="w3-row">
+                
+        <div class="w3-col" style="width:10%"><p></p></div>
+        <div class="w3-col" style="width:80%; background-color:#ebeeee">
+        	<h2>Analysis of Medical Patients</h2>
+        	<p>80%</p>
+        </div>
+        <div class="w3-col" style="width:10%"><p></p></div>      
+		
+	</div> <!-- end page row line#61-->
+ </section> <!-- end #basic -->
+
+ <!-- footer
+   ================================================== -->
+   
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+    
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li> 
+               <li>Customized by Nykosi Hollingsworth</li>  
+            </ul>
+
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#basic"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+  
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+	<!-- Tabs -->
+<script>
+    function openTab(evt, TabName) {
+  var i;
+  var x = document.getElementsByClassName("tab");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  var activebtn = document.getElementsByClassName("testbtn");
+  for (i = 0; i < x.length; i++) {
+      activebtn[i].className = activebtn[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(TabName).style.display = "block";
+  evt.currentTarget.className += " w3-dark-grey";
+}
+
+var mybtn = document.getElementsByClassName("testbtn")[0];
+mybtn.click();
+</script>
+
+
+</body>
+
+</html>
