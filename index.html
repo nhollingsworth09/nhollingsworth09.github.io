@@ -2,10 +2,6 @@
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
    <!--- Basic Page Needs
@@ -51,8 +47,7 @@
             <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
             <li><a class="smoothscroll" href="#about">About</a></li>
 	         <li><a class="smoothscroll" href="#resume">Skills</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projects</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
@@ -60,8 +55,12 @@
       <div class="row banner">
          <div class="banner-text">
             <h1 class="responsive-headline">Nykosi Hollingsworth</h1>
-            <h3>I'm a New York/New Jersey based <span>aspiring data scientist and actuary</span> intent on diving head first into data and illuminating insights that may be hidden in plain view. Learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <h3>New York-born, Nykosi Hollingsworth is an ambitious, cultured individual making a name for himself in the <a>data and actuarial science fields</a>. His goal is to give others insight as he illuminates what may be hidden in plain view. To learn more, <a class="smoothscroll" href="#about">click here</a>.</h3>
             <hr />
+            <ul class="social">
+               <li><a href="https://github.com/nhollingsworth09"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://linkedin.com/in/nhollingsworth1"><i class="fa fa-linkedin"></i></a></li>
+            </ul>
          </div>
       </div>
 
@@ -87,40 +86,44 @@
          <div class="nine columns main-col">
 
             <h2>About</h2>
-
-            <p>The first thing that may have caught your eye is the background image. Though I was born in Brooklyn, NY, I grew up on the beautiful island of Carriacou, Grenada where I completed most of my primary and secondary education. The picture overlooks my hometown of Hillsborough, the largest town on the island. It is here that my love of math and science started and grew during my teenage years.
-           </p>
+	
             <p>
-    If I'm not watching a movie or trying to convince you to watch my most recent Netflix addiction, then I'm looking for the next adventure to find, skill to learn, or project to undertake. From learning to play a new instrument to learning a new programming language, I approach all challenges with a clear plan and a positive attitude.
+			Though born in Brooklyn, NY, Nykosi was raised on the picturesque island of Carriacou, Grenada, where he completed his primary and secondary education.  As if growing up around white sand beaches and turquoise waters wasn’t enough, he desired more and decided to indulge in his love for Mathematics and Science. He returned to America where he matriculated at St. Peter’s University in New Jersey, receiving his B.S. in Mathematics, with a minor in Physics.
+           </p>
+		   <p>
+			Nykosi brings ingenuity to data and actuarial science by seeking innovative strategies that incorporates solution driven techniques. His passion and creativity have allowed him to participate in technical projects, which encouraged him to develop a personal work flow that optimizes learning and success.
+            </p> 
+            <p>
+			When he’s not studying for the next actuarial exam, Nykosi can be found pursuing his interests in snowboarding, skateboarding, skydiving, jet-skiing, soccer, cricket, carpentry, and playing guitar and piano. Also, he can ever so often be found binging on his new Netflix craze.
             </p>
 
             
          </div> <!-- end .main-col -->
 
-<aside>
+
         	<div id="googleMap" style="width:100%;height:400px;"></div>
             
             <script>
-function myMap() {
-var myLatLng = {lat: 12.483688, lng: -61.449616};
+				function myMap() {
+				var myLatLng = {lat: 12.483688, lng: -61.449616};
 
-var mapProp= {
-    center: myLatLng,
-    zoom:12,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
+				var mapProp= {
+					center: myLatLng,
+					zoom:12,
+				};
+				var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 
-var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: ''
-        });
-}
-</script>
+				var marker = new google.maps.Marker({
+						  position: myLatLng,
+						  map: map,
+						  title: ''
+						});
+				}
+			</script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMGdQwjyr2bOHvL9jrnyzVwsz2gxLljEk&callback=myMap"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMGdQwjyr2bOHvL9jrnyzVwsz2gxLljEk&callback=myMap"></script>
             
-        </aside>
+
 		
         
           
@@ -134,62 +137,16 @@ var marker = new google.maps.Marker({
    <section id="resume">
 
      
-      <!-- Skills
-      ----------------------------------------------- -->
-      <div class="row skill">
+      <!-- Skills -->
+	  
+	<div class="row skill">
 
-         <div class="three columns header-col">
-            <h1><span>What I offer</span></h1>
-         </div>
+		<div class="three columns header-col">
+            <h1><span>Skills</span></h1>
+		</div>
 
-         <div class="nine columns main-col">
-
-            <p>I specialize in business analytics and data mining. During both my undergraduate and professional experience, I have been allowed the opportunity to work on a few technical projects. Leveraging my knowledge and extending into personal projects, my aim is to solve problems where the solution is not obvious and success not guaranteed. With this in mind, I've developed a work style that emphasizes what can be learned from the process of finding a solution in addition to producing a final result.
-            </p> 
-			
-            <div class="w3-row  w3-center" style="padding-bottom:20px">
-            			
-            	<div class="w3-quarter workstyle">
-              		  <div class="w3-container" style="min-height:120px">
-                      <h4>Discuss</h4><br>	
-                      <img src="images/workstyle/bubbles.png" class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-                      	<!--	<div class="after">
-                       			<div class="content"><p>Be it monologue or dialogue, the first step is hashing ideas out and getting them on paper.</p></div>
-                      		</div> -->
-                      </div> 
-                </div>
-                
-                <div class="w3-quarter workstyle">
-              		  <div class="w3-container" style="min-height:120px">
-                      <h4>Plan</h4><br>	
-                      <img src="images/workstyle/cogs.png" class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-                      	<!--	<div class="after">
-                       			<div class="content"><p>Details are important, but a general plan of action should always preceed them.</p></div>
-                      		</div> -->
-                      </div>
-                </div>
-                
-                <div class="w3-quarter workstyle">
-              		  <div class="w3-container" style="min-height:120px">
-                      <h4>Launch</h4><br>	
-                      <img src="images/workstyle/rocket.png" class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-                      <!--		<div class="after">
-                       			<div class="content"><p>After multiple drafts and extensive time spent debugging, we are ready to launch!</p></div>
-                      		</div> -->
-                      </div>
-                </div>
-                
-                <div class="w3-quarter workstyle">
-              		  <div class="w3-container" style="min-height:120px">
-                      <h4>Review</h4><br>	
-                      <img src="images/workstyle/redo.png" class="w3-margin-bottom w3-text-theme" style="font-size:120px">
-                     <!-- 		<div class="after">
-                       			<div class="content"><p>Even if we have a perfect implimentation, there is always room to improve code.</p></div>
-                      		</div> -->
-                      </div>
-                </div>
-                </div>
-            
+			<div class="nine columns main-col">
+           
 				<div class="bars">
 
 				   <ul class="skills">
@@ -207,379 +164,53 @@ var marker = new google.maps.Marker({
 
 			</div> <!-- main-col end -->
 
-      </div> <!-- End skills -->
+	</div> <!-- End skills -->
 
    </section> <!-- Resume Section End-->
-
-
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="portfolio">
-
-      <div class="row">
-
-         <div class="twelve columns collapsed">
-
-            <h1>Check Out Some of My Work.</h1>
-			<p class="w3-center"><em>Coming Soon</em></p>
-            <!-- portfolio-wrapper -->
-<!--             <div id="portfolio-wrapper" class="bgrid-thirds s-bgrid-thirds cf">
-
-<!--          	   <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="images/portfolio/datascience.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5 style="text-align:center">Data Science</h5>
-                           
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-<!--                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="images/portfolio/actuarial.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5 style="text-align:center">Actuarial</h5>
-                             
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-
-<!--                <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5 style="text-align:center">Other</h5>
-                              
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-<!--
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-<!--
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-<!--
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-<!--
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div> <!-- item end -->
-<!--
-               <div class="columns portfolio-item">
-                  <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
-                  </div>
-          		</div>  <!-- item end -->
-
-<!--             </div> <!-- portfolio-wrapper end -->
-
-         </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-datascience.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Data Science</h4>
-			      <p>A collection of personal projets requiring anywhere from low to high level data analysis skills. Each post entails a conclusion which outlines any interesting insights.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Data, Analytics, Coding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="projects.html#b1" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-actuarial.png" alt="" />
-
-		      <div class="description-box">
-			      <h4>Actuarial</h4>
-			      <p>Being interested in actuarial science, I will inevitably have to learn and internalize the Actuarial Standards of Practice (ASOP). Without currently working in the field, there is a large gap of context lost. This section encompasses my attempt to bridge that gap with extensive research and summarize each ASOP. </p>
-               <span class="categories"><i class="fa fa-tag"></i>Research, Documentation</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="projects.html#b2" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Other</h4>
-			      <p>See what other miscellaneous work I've been up to, including things I'm currently or will be working on.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Personal Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="projects.html#b3" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-<!--
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-<!--
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-<!--
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-<!--
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-<!--
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
 
    <!-- Contact Section
    ================================================== -->
    <section id="contact">
 
-         <div class="row section-head w3-center">
+		<div class="row section-head w3-center">
 
            
 
                <h1>Get In Touch.</h1>
 
-          </div>  
+		</div>  
 
-            <div class="ten columns">
+		<div class="w3-row">
 
-                
-            </div>
-
-         </div>
-
-         <div class="row">
-
-            <div>
+            <div class="w3-center">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form action="http://formspree.io/nhollingsworth09@gmail.com"  method="POST" id="contactForm">
+				
 					<fieldset class="w3-border-0">
+					
+						<input type="text" placeholder="Name">
 
-                  <div>	
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
+						<input type="email" name="email" placeholder="Email">
 
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
+						<textarea name="message" placeholder="Message"></textarea>
 
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
+						<input type="hidden" name="_subject" value="Website contact" />
 
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Send</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
+						<input type="text" name="_gotcha" style="display:none" />	
+										
+						<button type="submit">Send</button>
 
 					</fieldset>
-				   </form> <!-- Form End -->
+				
+				</form> <!-- Form End -->
 
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
 
             </div>
 
 
 
-      </div>
+		</div>
 
    </section> <!-- Contact Section End-->
 
