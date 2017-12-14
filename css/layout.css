@@ -850,6 +850,13 @@ call-to-action .button {
 /* h. Contact Section
 /* ------------------------------------------------------------------ */
 
+/*Added 11/29/2017*/
+#contact fieldset input,
+#contact fieldset textarea{ 
+	margin:10px auto;
+}
+
+
 #contact {
    background: #191919;
    padding-top: 96px;
@@ -869,16 +876,7 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact h1 span { display: none; }
-#contact h1:before {
-   font-family: 'FontAwesome';
-   content: "\f0e0";
-	padding-right: 10px;
-	font-size: 72px;
-   line-height: 72px;
-   text-align: left;
-   float: left;
-   color: #ebeeee;
-}
+
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
