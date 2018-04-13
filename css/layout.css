@@ -355,6 +355,7 @@ ul#nav li.current a { color: #F06000; }
   	height: 42px;
   	border-radius: 3px;
 }
+
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
@@ -364,6 +365,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
+
 .bar-expand {
    position: absolute;
    left: 0;
@@ -377,84 +379,103 @@ ul#nav li.current a { color: #F06000; }
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
 .msexcel {
   	width: 90%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+  	-moz-animation: msexcel 2s ease;
+  	-webkit-animation: msexcel 2s ease;
 }
 .visualbasic {
   	width: 75%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: visualbasic 2s ease;
+  	-webkit-animation: visualbasic 2s ease;
 }
 .sql {
   	width: 45%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
 }
+
 .r {
   	width: 65%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+  	-moz-animation: r 2s ease;
+  	-webkit-animation: r 2s ease;
 }
+
 .python {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease; 
+  	-moz-animation: python 2s ease;
+  	-webkit-animation: python 2s ease; 
 }
+
 .html5 {
   	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
 .sas {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: sas 2s ease;
+  	-webkit-animation: sas 2s ease;
 }
+
 .prophet {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: prophet 2s ease;
+  	-webkit-animation: prophet 2s ease;
 }
-@-moz-keyframes photoshop {
+
+@-moz-keyframes msexcel {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes illustrator {
+@-moz-keyframes visualbasic {
   0%   { width: 0px;  }
   100% { width: 75%;  }
 }
-@-moz-keyframes wordpress {
+@-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 45%;  }
 }
-@-moz-keyframes css {
+@-moz-keyframes r {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }	
+}
+@-moz-keyframes python {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
 @-moz-keyframes html5 {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 70%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes sas {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-moz-keyframes prophet {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-webkit-keyframes msexcel {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 90%;  }
 }
-@-webkit-keyframes illustrator {
+@-webkit-keyframes visualbasic {
   0%   { width: 0px;  }
-  100% { width: 55%;  }
+  100% { width: 75%;  }
 }
-@-webkit-keyframes wordpress {
+@-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 45%;  }
 }
-@-webkit-keyframes css {
+@-webkit-keyframes r {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }	
+}
+@-webkit-keyframes python {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
@@ -462,7 +483,11 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 70%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes sas {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+@-webkit-keyframes prophet {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
