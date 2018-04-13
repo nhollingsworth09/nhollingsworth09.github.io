@@ -379,7 +379,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .msexcel {
-  	width: 60%;
+  	width: 90%;
   	-moz-animation: photoshop 2s ease;
   	-webkit-animation: photoshop 2s ease;
 }
@@ -394,15 +394,15 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: illustrator 2s ease;
 }
 .r {
-  	width: 55%;
+  	width: 65%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
 /*.python {
   	width: 90%;
   	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease; */
-}
+  	-webkit-animation: css 2s ease; 
+}*/
 .html5 {
   	width: 70%;
   	-moz-animation: html5 2s ease;
@@ -411,8 +411,8 @@ ul#nav li.current a { color: #F06000; }
 /*.sas {
   	width: 90%;
   	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease; */
-}
+  	-webkit-animation: css 2s ease;
+}*/
 .prophet {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
