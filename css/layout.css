@@ -355,6 +355,7 @@ ul#nav li.current a { color: #F06000; }
   	height: 42px;
   	border-radius: 3px;
 }
+
 .bars li em {
 	font: 15px 'opensans-bold', sans-serif;
    color: #313131;
@@ -364,6 +365,7 @@ ul#nav li.current a { color: #F06000; }
    position: relative;
 	top: -36px;
 }
+
 .bar-expand {
    position: absolute;
    left: 0;
@@ -393,26 +395,31 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: illustrator 2s ease;
   	-webkit-animation: illustrator 2s ease;
 }
+
 .r {
   	width: 65%;
   	-moz-animation: wordpress 2s ease;
   	-webkit-animation: wordpress 2s ease;
 }
+
 .python {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease; 
 }
+
 .html5 {
   	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
+
 .sas {
   	width: 90%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
+
 .prophet {
   	width: 50%;
   	-moz-animation: jquery 2s ease;
