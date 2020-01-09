@@ -436,11 +436,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 65%;  }
 }
 @-moz-keyframes r {
   0%   { width: 0px;  }
-  100% { width: 65%;  }	
+  100% { width: 85%;  }	
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
@@ -452,7 +452,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes sas {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 40%;  }
 }
 @-moz-keyframes prophet {
   0%   { width: 0px;  }
@@ -469,11 +469,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes sql {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
+  100% { width: 65%;  }
 }
 @-webkit-keyframes r {
   0%   { width: 0px;  }
-  100% { width: 65%;  }	
+  100% { width: 85%;  }	
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
@@ -485,7 +485,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes sas {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 40%;  }
 }
 @-webkit-keyframes prophet {
   0%   { width: 0px;  }
